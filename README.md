@@ -4,7 +4,7 @@ Welcome to VITemu2, my PlayStation2 emulator. I'm creating it as way to learn ho
 
 Feel free to contribute, report issues, or simply explore the code!
 
-***
+---
 
 ## Roadmap
 
@@ -14,4 +14,4 @@ Add support for running actual PS2 games (with BIOS and ROM files).
 Add graphical output and controller input using SDL2.
 Optimize performance for better game compatibility.
 
-***
+---
