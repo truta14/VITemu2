@@ -4,6 +4,7 @@ project(vitemu2 VERSION 0.1.0 LANGUAGES C CXX)
 add_executable(vitemu2 
     src/main.cpp
     src/cpu/cpu.cpp
+    src/memory/memory.cpp
 )
 
 include(CTest)
