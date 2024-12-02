@@ -50,8 +50,13 @@ public:
     };
     std::vector<CacheLineInst> instructionCache;
 
-    // Paginação
-    std::unordered_map<uint32_t, uint32_t> pageTable;
+    // Tabela de páginas
+    struct PageTableEntry {
+        uint32_t physicalAddress;
+        bool valid;
+    };
+
+    std::unordered_map<uint32_t, PageTableEntry> pageTable;
 
     // Debug
     bool debugLoggingEnabled;
